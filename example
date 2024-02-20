@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>How to define style information of a document using HTML5?</title>
+      <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.5;
+            margin: 0;
+            padding: 20px;
+         }
+         header {
+            background-color: #fff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+         }
+         h4 {
+            font-size: 36px;
+            margin-top: 0;
+         }
+         h5 {
+            font-size: 28px;
+            margin-top: 0;
+         }
+         p {
+            font-size: 18px;
+            margin-bottom: 20px;
+         }
+         a {
+            color: #333;
+            text-decoration: none;
+         }
+         a:hover {
+            color: #666;
+         }
+      </style>
+   </head>
+   <body>
+      <h4>How to define style information of a document using HTML5?</h4>
+      <header>
+         <h1>Welcome to My Beautiful Page</h1>
+      </header>
+      <p>This is a sample text. We can use this space to talk about anything we want, such as our company, product, or
+      service. We can explain what we do and how we can help our customers. We can also showcase some of our best features
+      and benefits.</p>
+      <p>For example, we can mention that we offer high-quality products at affordable prices. We can also highlight our
+      excellent customer service and fast shipping. We can include some customer testimonials to show how satisfied our
+      customers are with our products and services.</p>
+      <p>If you have any questions or would like to place an order, please don't hesitate to contact us. You can reach us by
+      phone, email, or through our website. Our friendly and knowledgeable staff will be happy to assist you.</p>
+      <p>Visit our website for more information: <a href="http://www.example.com">www.example.com</a></p>
+   </body>
+</html>
