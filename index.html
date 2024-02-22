@@ -1,78 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
     <title>SpeedStar Motors</title>
+    <meta content="text/html; charset=utf-8" />
     <style>
-        body {
-            background-color: red;
-            background-repeat: no-repeat;
-            background-attachemnt: fixed;
-            background-position: center;
-            background-size: cover;
-            border: 2px;
-        }
-        h1 { 
-            color: white;
-            font-family: courier;
-        }
-        h2 {
-            color: white;
-            font-family: courier;
-        }
-        p {
-            color: white;  
-        }
-        /* Adding an id selector to style a specific paragraph */
-        #p1 { font-family: sans-serif;
-            font-style: italic; /* Adding italic style to the specific paragraph */
-        }
-         #h1 { border-style: outset;
-            border-width: 2px;
-            border-radius: 3px;
-            padding: 3px;
-              color:red;
-                }
-        #box1 { border: 5px solid;
-               width: 250px;
-               height: 250px;
-               font-size: 22px;
-               background: grey;
-              }
-   #box2 { border: 5px solid;
-               width: 250px;
-               height: 250px;
-               font-size: 22px;
-               background: white;
-              }
-         #box3 { border: 5px solid;
-               width: 250px;
-               height: 250px;
-               font-size: 22px;
-               background: white;
-              }
-    </style>
-</head>
-<body>
+     *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+        font-family: 'Poppins';
+    }
 
-     
-    <h1>Welcome to the SpeedStar Motors website!</h1>
-    <br>
- <h3 id="h1">Explore more brands</h3>
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: #ccc;
+        display:flex;
+        align-items: center;
+        justify-content:center;
     
-    <h3>Here we prioritize our customers' needs and the quality of our cars.</h3>
-    
-    <h4>Best cars in BW, period.</h4>
-    <p  id="p1">Here are some of our most bought car brands:</p>
-    <h2>Mercedes Benz</h2>
-    <div id="box1"> The classic. A gem that people tend to still fall for over and over.</div>
-    <p id="p1">The classic. A gem that people tend to still fall for over and over.</p>
-    <h2>BMW</h2>
-    <div id="box2"> lorem</div>
-    <p id="p1" >Combination of class and sport. Excellent performance as well as a stunning finishing touch.</h2>
-    <h2>Jeep</h2>
-    <div id="box3"> Quite the off-road car to go for.</div>
-    <p  id="p1">Quite the off-road car to go for.</p>
-</body>
-    <footer> Contact us at: speedstarmotors@gmail.com  Tel: +267 77877174</footer>
-</html>
+    .content{
+        text-align: center;
 
+    }
+    .content h1{
+       font-size: 75px;
+       color: #fff;
+       margin-bottom: 50px ;
+    }
+    .content a{
+        font-size:23px;
+        color:#fff;
+        text-decoration: none;
+        border:2px solid #fff;
+        padding: 15px 25px;
+        border-radius: 50px;
+        transition: 0.3s;
+    
+    }
+    .content a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+        
+        </style>
+        </head>
+        <body>
+
+          <div class="container"> 
+             
+               <div class="content">
+        <h1>Find your dream car</h1>
+        <a href="#">Discover More</a>
+                </div>
+            </div>
+        </body>
+     </html>
