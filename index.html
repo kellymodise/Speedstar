@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>SpeedStar Motors</title>
     <style>
         body {
             background-color: black;
             color: white; /* Common color for text */
             font-family: courier; /* Common font for text */
         }
-        h1 {
+        h1 { border-bottom-style: dotted;
             color: white;
             font-family: courier;
         }
@@ -15,27 +16,35 @@
             color: white;
             font-family: courier;
         }
-        p { 
+        p { border-style:solid;
+           border-width: 5px;
+           border-radius: 10px; /* the higher the number the smoother the corners are*/
+               padding: 5px; /*space between text and border*/
             color: white;  
         }
         /* Adding an id selector to style a specific paragraph */
         #p1 { font-family: sans-serif;
             font-style: italic; /* Adding italic style to the specific paragraph */
         }
+         #h1 { border-style: solid;
+            border-width: 2px
+                }
     </style>
 </head>
 <body>
-    <h1>Welcome to the SpeedStar website!</h1>
+    <h3 id="h1">Explore more brands</h3>
+    <h1>Welcome to the SpeedStar Motors website!</h1>
     
     <h3>Here we prioritize our customers' needs and the quality of our cars.</h3>
     
     <h4>Best cars in BW, period.</h4>
     <p>Here are some of our most bought car brands:</p>
     <h2>Mercedes Benz</h2>
-    <p id="p1">The classic. A gem that people tend to still fall for over and over.</p>
+    <p>The classic. A gem that people tend to still fall for over and over.</p>
     <h2>BMW</h2>
-    <p id="p1">If you want a combination of class and sport, this is the one for you. Excellent performance yet has a stunning finishing touch.</h2>
+    <p >If you want a combination of class and sport, this is the one for you. Excellent performance yet has a stunning finishing touch.</h2>
     <h2>Jeep</h2>
-    <p id="p1">Quite the off-road car to go for.</p>
+    <p ">Quite the off-road car to go for.</p>
 </body>
+    <footer> Contact us at: speedstarmotors@gmail.com  Tel: +267 77877174</footer>
 </html>
