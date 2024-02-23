@@ -1,60 +1,158 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <title>SpeedStar Motors</title>
     <style>
-        * {
-            padding: 0;
+        body {
             margin: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
         }
 
-        . hero {
-            width: 100%;
-            height: 100vh;
-            background-image: linear-gradient(rgba(12,3,51,0.3),(rgba(12,3,51,0.3),);
-            postion: relative;
-            padding: 0 5%;
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .slogan {
+            font-size: 24px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 50px 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .car {
             display: flex;
             align-items: center;
-            justify-content: center;
+            margin-bottom: 20px;
         }
-        .nav{
-            width:100%;
-            position:absolute;
-            top:0;
-            left:0;
-            padding:20px 8%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;   
+
+        .car img {
+            width: 200px;
+            margin-right: 20px;
         }
-        .nav .logo {
-            width:80px;
+
+        .car-details {
+            flex: 1;
         }
-        nav ul li{
-            list-style:none;
-            display:inline-block;
-            margin-left:40px;
+
+        video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
         }
     </style>
 </head>
 <body>
-    <div class="hero">
-       <nav>
-           <img src= "SpeedstarLogo.jpg" class="logo">
-           <ul>
-               <li><a href="#">HOME</a></li>
-               <li><a href="#">POPULAR BRANDS</a></li>
-               <li><a href="#">CONTACT US</a></li>
-           </ul>
-       </nav>
+
+<video autoplay muted loop>
+  <source src="your-video-source.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<header>
+    <h1>Welcome to SpeedStar Motors</h1>
+    <p class="slogan">Drive with Style, Speed, and Confidence</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#cars">Cars</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>SpeedStar Motors is a premier destination for high-performance cars. We provide top-notch vehicles with cutting-edge technology and unparalleled style.</p>
+    </section>
+
+    <section id="cars">
+        <h2>Our Cars</h2>
+        <div class="car">
+            <img src="c45amg.webp" alt="Car 1">
+            <div class="car-details">
+                <h3>Mercedes</h3>
+                <p>Model: XYZ</p>
+                <p>Year: 2023</p>
+                <p>Price: $30,000</p>
+            </div>
         </div>
-    </div>
+
+        <div class="car">
+            <img src="bmwmsport.jpg" alt="Car 2">
+            <div class="car-details">
+                <h3>BMW</h3>
+                <p>Model: ABC</p>
+                <p>Year: 2022</p>
+                <p>Price: $25,000</p>
+            </div>
+        </div>
+
+        <div class="car">
+            <img src="jeepwranglerrubicon.webp" alt="Car 3">
+            <div class="car-details">
+                <h3>Jeep</h3>
+                <p>Model: DEF</p>
+                <p>Year: 2024</p>
+                <p>Price: $35,000</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="contact">
+    <p>Contact Us:</p>
+    <p>123 Tlokweng, Gaborone</p>
+    <p>Email: info@speedstar.com</p>
+    <p>Phone: +267-123-456-7890</p>
+    <p>&copy; 2024 SpeedStar Motors. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
